@@ -4,14 +4,14 @@
 }
 
 main{
-    background-color: #000;
+    background-color: #2B1A3A;
 }
 
 .homepage{
-    background-image: url('../img/background2.jpg');
+    background-image: url('../img/background4.jpg');
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: 20%;
+    background-position: 50%;
     height: 100vh;
 }
 
@@ -47,7 +47,7 @@ main{
 
 /* Start Description */
 .description{
-    background-color: #000;
+    background-color: #2B1A3A;
 }
 
 .description .des{
