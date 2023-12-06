@@ -4,7 +4,7 @@
 }
 
 main{
-    background-color: #5B97D5;
+    background-color: #000;
 }
 
 .homepage{
@@ -47,11 +47,11 @@ main{
 
 /* Start Description */
 .description{
-    background-color: #5B97D5;
+    background-color: #000;
 }
 
 .description .des{
-    height: calc(70vh - 60px);
+    height: calc(50vh - 60px);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -60,7 +60,7 @@ main{
     color: white;
 }
 .description .tujuan{
-    height: calc(70vh - 60px);
+    height: calc(50vh - 60px);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -69,7 +69,7 @@ main{
     color: white;
 }
 .description .latar{
-    height: calc(70vh - 60px);
+    height: calc(50vh - 60px);
     display: flex;
     flex-direction: column;
     align-items: center;
