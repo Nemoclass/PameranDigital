@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+main{
+    background-color: #5B97D5;
+}
+
 .homepage{
     background-image: url('../img/background2.jpg');
     background-size: cover;
@@ -11,7 +15,7 @@
     height: 100vh;
 }
 
-/* hero */
+/* Start Hero */
 .hero{
     height: calc(100vh - 60px);
     display: flex;
@@ -37,3 +41,40 @@
         width: 300px;
     }
 }
+
+/* End Hero */
+
+
+/* Start Description */
+.description{
+    background-color: #5B97D5;
+}
+
+.description .des{
+    height: calc(70vh - 60px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+.description .tujuan{
+    height: calc(70vh - 60px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+.description .latar{
+    height: calc(70vh - 60px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+/* End Description */
