@@ -1,88 +1,13 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
-main{
-    background-color: #2B1A3A;
-}
-
-.homepage{
-    background-image: url('../img/background4.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: 50%;
+.parallax{
+    position: relative;
+    display:  flex;
+    justify-content: center;
+    align-items: center;
     height: 100vh;
 }
-
-/* Start Hero */
-.hero{
-    height: calc(100vh - 60px);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    color: white;
-}
-
-@media (max-width: 992px) {
-    .hero img{
-        width: 400px;
-    }
-}
-@media (max-width: 992px) {
-    .hero img{
-        width: 400px;
-    }
-}
-@media (max-width: 576px) {
-    .hero img{
-        width: 300px;
-    }
-}
-
-/* End Hero */
-
-
-/* Start Description */
-.description{
-    background-color: #2B1A3A;
-}
-
-.description .des{
-    height: calc(50vh - 60px);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    color: white;
-}
-.description .tujuan{
-    height: calc(50vh - 60px);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    color: white;
-}
-.description .latar{
-    height: calc(50vh - 60px);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    color: white;
-}
-/* End Description */
-
-/* Start Footer */
-.mainfooter{
-    width: 100%;
-    height: 50px;
-    background-color: #6351ce;
-}
-/* End Footer */
