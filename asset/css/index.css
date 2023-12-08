@@ -22,6 +22,7 @@ body{
 
 .banner .bg-1{
     background: url('../img/ParallaxBackground/background.png');
+    width: 100%;
     background-repeat: no-repeat;
 }
 .banner .bg-2{
